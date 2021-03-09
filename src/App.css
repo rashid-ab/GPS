@@ -1,7 +1,14 @@
 .App {
   /* text-align: center; */
+  display: flex;
   flex: 1;
+  flex-direction: column;
   width: 100%;
+  background-color: black;
+  height: 100vh;
+  padding-top:100px;
+  color: white;
+  background:url("./assets/background.png"); 
 }
 .Containers-css{
   display: flex;
@@ -9,18 +16,30 @@
   justify-content:center;
   align-items: center;
 }
+.submit-button{
+  background-color: rgb(114, 114, 114) ;
+  width: 25%;
+}
+.button-submit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .gps{
-  margin-top: -22px;
+  /* margin-top: -22px; */
+}
+.email{
+    width:50%;
 }
 .signForm{
-  /* display: flex;
-  flex-direction: column;
-  justify-content:center;
-  align-items: center; */
-  
+  min-width: 370px;
+  padding-top: 50px;
 }
 .signIn{
   margin-top: 20px;
+}
+.login-form{
+  padding-top: 30px;
 }
 .App-logo {
   height: 40vmin;
